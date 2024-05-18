@@ -1,0 +1,102 @@
+.build{
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8); /* White with transparency */
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    padding-left: 30%;
+    display: flex;
+    flex-direction: column;
+    transition: color 0.15s ease;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.build-sticky{
+    position: sticky;
+    top: 0;
+}
+
+
+.build-video{
+    width: 300px;
+    position: absolute;
+    left: 550px;
+    z-index: -1;
+  }
+  .build-video-div{
+    display: flex;
+  }
+
+  .build h1{
+    font-size: 200px;
+    font-weight: 100;
+    font-weight: 100;
+    margin: 0;
+    text-align: left;
+    z-index: 10;
+    padding-left: 200px;
+}
+
+.build-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 700px;
+    right: 100px;
+    z-index: 10;
+}
+
+.build p{
+    text-align: right;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+}
+
+
+
+.build {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .build.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoomOut {
+    from {
+      transform: scale(1);
+      opacity: 1;
+    }
+    to {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+  }
+  
+  .build.zoom-in {
+    animation: zoomIn 0.5s forwards;
+  }
+  
+  .build.zoom-out {
+    animation: zoomOut 0.5s forwards;
+  }
+  

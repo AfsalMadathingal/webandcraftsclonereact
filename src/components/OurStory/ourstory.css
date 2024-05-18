@@ -1,0 +1,61 @@
+.our-story{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    place-items: center;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    padding: 0px 250px 10px 200px;
+}
+
+.our-story h1{
+    font-size: 100px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.our-story p{
+
+    font-size: 35px;
+    font-weight: 100;
+    text-align: left;
+    margin-top: 0; 
+}
+
+.our-story video{
+
+  width: 800px;
+}
+
+.about-us-button{
+    border: white 1px solid;
+    padding: 20px;
+    width: 150px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 300px;
+    cursor: pointer;
+}
+
+.about-us-button i{
+
+    padding-left: 30px;
+    transition: padding-left 0.5s ease;
+}
+
+
+.about-us-button:hover{
+
+    background-color: white;
+    color: black;  
+    transition: all 0.5s ease;
+    border: rgb(0, 0, 0) 1px solid;
+}
+
+.about-us-button:hover i{
+
+    padding-left: 40px;
+}

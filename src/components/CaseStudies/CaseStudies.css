@@ -1,0 +1,128 @@
+.case-study {
+    background-color: white;
+    color: black;
+    position: relative;
+    padding: 50px 250px 0px 250px; 
+    z-index: 10;
+    padding-bottom: 50px;
+    
+  }
+  
+  .case-study h2 {
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .cards-study {
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 0px;
+    padding-left: 20px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+  }
+  
+  .thumbnail {
+    position: relative;
+    height: 450px;
+    width: 400px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .image, .video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .image {
+    transition: opacity 0.5s ease;
+  }
+  
+  .video {
+    display: none;
+  }
+  
+  .cards-study:hover .image {
+    opacity: 0;
+  }
+  
+  .cards-study:hover .video {
+    display: block;
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .cards-container h3{
+
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 0px;
+  }
+
+  .cards-container p{
+
+    font-size: 23px;
+  }
+  
+  .cards-study .text-details{
+
+    display: flex;
+    flex-direction: column;
+    right: 10px;
+  }
+
+  .view-work-button{
+
+    border: black 1px solid;
+    padding: 20px;
+    width: 190px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: 300px;
+    cursor: pointer;
+  }
+
+  .view-work-button:hover{
+
+    background-color: black;
+    color: white;  
+    transition: all 0.5s ease; 
+  }
+
+  .view-work-button i{
+
+    padding-left: 10px;
+    transition: padding-left 0.5s ease;
+  }
+
+  .view-work-button:hover i {
+
+    padding-left: 20px;
+    transition: all 0.5s ease;
+  }

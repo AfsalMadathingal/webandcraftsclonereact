@@ -1,0 +1,112 @@
+
+.market{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8); /* White with transparency */
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    padding-left: 30%;
+    display: flex;
+    flex-direction: column;
+    transition: color 0.15s ease;
+    justify-content: center;
+    text-align: left;
+ 
+  }
+
+
+  .market-sticky{
+    position: sticky;
+    top: 0;
+}
+
+  .market-video{
+    width: 300px;
+    position: absolute;
+    right: 550px;
+  }
+  .market-video-div{
+    display: flex;
+  }
+
+  .market p{
+    color: rgb(170, 165, 158);
+    font-size: 30px;
+    font-weight: 100;
+    z-index: 1;
+  }
+
+  .market span {
+    color: rgb(92, 90, 90);
+    transition: color 0.10s ease;
+  }
+  
+  .market span.white {
+    color: white;
+    transition: color 0.10s ease;
+  }
+
+  .market h1{
+    font-size: 200px;
+    font-weight: 100;
+    margin: 0;
+    text-align: left;
+    z-index: 1;
+  }
+
+
+  .market {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.market.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
+.market.zoom-in {
+  animation: zoomIn 0.5s forwards;
+}
+
+.market.zoom-out {
+  animation: zoomOut 0.5s forwards;
+}
+
+.learn-more{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.learn-more i{
+    padding-left: 10px;
+    transition: padding-left 0.5s ease;
+}
+.learn-more:hover i {
+    padding-left: 20px;
+    transition: all 0.5s ease;
+}
