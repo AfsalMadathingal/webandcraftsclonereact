@@ -10,7 +10,7 @@ export default function SmallScreen() {
       <h1>Thank you for your interest in seeing my work.</h1>
       <h1>
         Currently, this clone is not responsive.<br /> I designed this only to
-        be viewed on desktop. <br />
+        be viewed on screen above  1800px. <br />
         I am working on making it responsive.
 
       </h1>

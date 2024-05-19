@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-        {width >= 1000 ? <Home /> : <SmallScreen />}
+        {width >= 1800 ? <Home /> : <SmallScreen />}
     </>
   )
 }
