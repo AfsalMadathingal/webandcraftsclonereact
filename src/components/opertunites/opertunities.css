@@ -1,0 +1,75 @@
+.opertunites{
+
+    color: rgb(19, 19, 19);
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    position: relative;
+
+}
+
+.opertunites-button{
+
+    border: black 1px solid;
+    padding: 20px;
+    width: 250px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300px;
+    cursor: pointer;
+}
+
+.opertunites-button:hover{
+
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.opertunites-button:hover i{
+
+    padding-left: 20px;
+    transition: all 0.5s ease;
+}
+.opertunites h2{
+
+    font-size: 90px;
+    font-weight: 200;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.opertunites p{
+
+    font-size: 25px;
+}
+
+.employees-photo img{
+
+    height: 500px;
+    padding-left: 200px;
+    transition: transform 0.5s ease-in-out;
+
+    
+}
+
+.opertunites .join-team{
+
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    animation: rotateAnimation 15s linear infinite;
+}
+@keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

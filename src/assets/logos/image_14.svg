@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="24" viewBox="0 0 105 24">
+  <g id="Group_167334" data-name="Group 167334" transform="translate(-467 -94)">
+    <path id="Path_41190" data-name="Path 41190" d="M194.987,610.185v-2.2c.394-.157,9.618-.189,10.165-.039a11.793,11.793,0,0,1-22.44-4.348h23.6a6.171,6.171,0,0,1-.325,2.311H185.921a8.681,8.681,0,0,0,5.394,5.571,9.074,9.074,0,0,0,8.577-1.161l-.008-.134Z" transform="translate(284.358 -497.017)" fill="#fff"/>
+    <path id="Path_41191" data-name="Path 41191" d="M205.931,597.733l.4,2.232h-23.7a11.712,11.712,0,0,1,3.763-7.917,11.214,11.214,0,0,1,8.331-3.091c.034.806.023,1.623,0,2.5-.39.044-.761.082-1.13.134a9.156,9.156,0,0,0-7.588,5.586,2.5,2.5,0,0,0-.093.24c-.016.048-.023.1-.051.226.239.02.468.055.7.055h18.7C205.455,597.7,205.661,597.717,205.931,597.733Z" transform="translate(284.368 -494.942)" fill="#fff"/>
+    <text id="LANDMARK" transform="translate(495 106.961)" fill="#fff" font-size="13" font-family="Helvetica" font-weight="700"><tspan x="0" y="0">LANDMARK</tspan></text>
+    <text id="Group" transform="translate(548 116)" fill="#fff" font-size="8" font-family="Helvetica-Bold, Helvetica" font-weight="700"><tspan x="0" y="0">Group</tspan></text>
+  </g>
+</svg>

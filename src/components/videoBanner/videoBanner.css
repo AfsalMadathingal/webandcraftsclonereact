@@ -65,4 +65,27 @@
     transition: all 0.5s ease;
 }
 
+.video-button{
+    background-color: rgba(207, 206, 206, 0.274);
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    right: 0;
+    margin-right: 300px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: 100;
+    display: flex;
+    width: 300px;
+}
+
+.video-button img{
+    cursor: pointer;
+    
+}
+
+.video-button p{
+    padding-left: 10px;
+}
 

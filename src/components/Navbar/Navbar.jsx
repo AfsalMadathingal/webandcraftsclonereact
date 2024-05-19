@@ -31,8 +31,8 @@ export default function Navbar(){
 
   return (
     <div className={`navbar ${isBlackBackground ? 'black-bg' : 'white-bg'}`}>
-      <div className="nav-left">
-        <Logo />
+      <div className={`nav-left ${isBlackBackground ? 'nav-left-logo-black' : ""}`}>
+        <img src="https://webandcrafts.com/image/logo1.svg" alt="logo" />
       </div>
       <div className="nav-right">
         <ul>

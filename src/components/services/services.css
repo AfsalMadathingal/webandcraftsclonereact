@@ -1,5 +1,5 @@
-.case-study {
-    background-color: white;
+.services {
+    background-color: rgb(245, 243, 243);
     color: black;
     position: relative;
     padding: 50px 250px 0px 250px; 
@@ -7,8 +7,12 @@
     padding-bottom: 50px;
     
   }
+
+  .services .text-details{
+    padding: 20px 50px 20px 20px;
+  }
   
-  .case-study h2 {
+  .services h2 {
     font-size: 70px;
     font-weight: 500;
     margin-bottom: 0px;
@@ -21,14 +25,14 @@
     justify-content: space-between;
   }
   
-  .cards-study {
+  .services-study {
     background-color: rgb(255, 255, 255);
-    height: 650px;
+    height: 450px;
     width: 400px;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 0px;
-    padding-left: 20px;
+    padding-left: 0px;
     display: flex;
     justify-self: center;
     flex-direction: column;
@@ -36,9 +40,9 @@
     transition: background-color 0.5s ease;
   }
   
-  .case-study .thumbnail {
+  .services .thumbnail {
     position: relative;
-    height: 450px;
+    height: 100px;
     width: 400px;
     overflow: hidden;
     cursor: pointer;
@@ -57,23 +61,17 @@
     transition: opacity 0.5s ease;
   }
   
-  .video {
-    display: none;
+
+  
+  .services-study .image {
+    transform: scale(1); 
+    transition: transform 0.5s ease-in-out; 
   }
   
-  .cards-study:hover .image {
-    opacity: 0;
+  .services-study:hover .image {
+    transform: scale(1.2); 
   }
   
-  .cards-study:hover .video {
-    display: block;
-    animation: fadeIn 0.5s forwards;
-  }
-  
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
 
   .cards-container h3{
 
@@ -87,7 +85,7 @@
     font-size: 23px;
   }
   
-  .cards-study .text-details{
+  .services-study .text-details{
 
     display: flex;
     flex-direction: column;
@@ -123,6 +121,6 @@
 
   .view-work-button:hover i {
 
-    padding-left: 20px;
+    padding-left: 10px;
     transition: all 0.5s ease;
   }

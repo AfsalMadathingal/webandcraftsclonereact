@@ -1,0 +1,104 @@
+.insights {
+    background-color: #f5f5f5; 
+    padding: 100px 100px 100px 300px; 
+    position: relative;
+  }
+  
+  .cards-container {
+    display: flex;
+  }
+  
+  .card {
+    width: 400px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .insights .thumbnail {
+    overflow: hidden;
+    height: 200px!important;
+    position: relative;
+    height: 450px;
+    width: 400px;
+    overflow: hidden;
+    cursor: pointer;
+    
+  }
+  
+  .insights .thumbnail img {
+    height: 200px!important;
+    width: 100%;
+    transition: transform 0.3s ease; 
+  }
+  
+  .insights.thumbnail:hover img {
+    transform: scale(1.1);
+  }
+  
+  .text-container {
+    padding: 15px;
+  }
+  
+  .text-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .text-head p {
+    margin: 0;
+    font-size: 14px;
+    color: #888888; 
+  }
+  
+  .text-container h2 {
+    font-size: 25px;
+    margin: 0;
+    color: #000000; 
+  }
+  
+  h2{
+    font-size: 100px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 30px;
+    
+  }
+
+  .button-insights{
+    border: black 1px solid;
+    padding: 20px;
+    width: 190px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: 300px;
+    cursor: pointer;
+  }
+
+  .button-insights:hover{
+
+    background-color: black;
+    color: white;  
+    transition: all 0.5s ease; 
+  }
+
+  .button-insights i{
+
+    padding-left: 10px;
+    transition: padding-left 0.5s ease;
+  }
+
+  .button-insights:hover i {
+
+    padding-left: 15px;
+    transition: all 0.5s ease;
+  }

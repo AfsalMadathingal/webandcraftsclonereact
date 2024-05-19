@@ -1,14 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
+import SmallScreen from './components/SmallScreen/SmallScreen'
 import Home from './Pages/Home/Home'
+import useWindowSize from './Hook/WindowSize'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
+  const { width } = useWindowSize();
 
   return (
     <>
-      <Home/>
+        {width >= 1000 ? <Home /> : <SmallScreen />}
     </>
   )
 }
