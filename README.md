@@ -1,8 +1,5 @@
-# React + Vite
+I just started learning React and have seen this website before. I was impressed by the quality and design, so I decided to clone it for practice. This project helped me gain more knowledge about React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Currently, the website can only be viewed from a desktop as I haven't made it responsive yet. I created it within a day and did my best. In the future, I hope to build more efficient websites.
