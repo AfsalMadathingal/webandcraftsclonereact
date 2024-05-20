@@ -12,7 +12,7 @@ const servicesData = [
         id: 1,
         name: 'UI/UX Design',
         image: ui,
-        Description:"Embracing UI/UX in crafting seamless experiences, keeping up with efficiency and elegance"
+        Description:"Embracing UI/UX  in crafting seamless experiences, keeping up with efficiency and elegance"
     },
     {
         id: 2,
